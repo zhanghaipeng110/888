@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/jiaju.css" type="text/css" rel="stylesheet" />
+		<link href="css/reset.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<img src="images/1.jpg" class="logo">
+		</header>
+		<nav>
+			<ul class="clearfix">
+				<li><a href="http://localhost:3000">首页</a></li>
+				<li><a href="http://localhost:3000/jiaju">家居设计</a></li>
+				<li><a href="http://localhost:3000/pusu">室内设计</a></li>
+				<li><a href="http://localhost:3000/yishu">璞素艺术</a></li>
+				<li><a href="http://localhost:3000/about">璞素活动</a></li>
+				<li><a href="http://localhost:3000/active">关于我们</a></li>
+			</ul>
+		</nav>
+		<article>
+			<div class="su">
+				<div class="juzhong">
+					<img src="images/12.jpg" />
+				</div>				
+			</div>
+			<% for(var i=0;i<title.length;i++){ %>
+				<div class="quan">
+					<div class="ju">
+						<img src="<%= title[i].img %>" />
+					</div>				
+				</div>
+			<% } %>
+		</article>
+		
+		<footer>
+			<div class="box clearfix">
+				<div class="f-left">
+					<p>璞素家居艺术/Pusu Lifestyle<br>上海市黄浦区 进贤路169号二楼<br>2nd Floor, No.169, JinXian Rd,<br>HuangPu District, Shanghai<br>联系方式/Contact<br>021-34619855<br>Email: inpusu@163.com</p>
+				</div>
+				<div class="f-cen">
+					<p>璞素设计/Pusu Design<br>上海市黄浦区 进贤路169号二楼<br>2nd Floor, No.169, JinXian Rd,<br>HuangPu District, Shanghai<br>联系方式/Contact<br>021-32558365</p>
+				</div>
+				
+				<div class="f-right">
+					<img src="images/10.jpg"> 璞素微信
+					<img src="images/10.jpg"> 璞素微信
+				</div>
+			</div>
+		</footer>
+		<div class="di">Copyright &copy;2017 家具设计师工作室</div>
+	</body>
+</html>

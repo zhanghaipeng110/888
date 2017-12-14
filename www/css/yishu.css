@@ -1,0 +1,151 @@
+*{
+	color: #000;
+}
+header{
+	width:1024px;
+	height:124px;
+	margin: auto;
+	text-align: center;
+}
+.logo{
+	width:100px;
+	height: 100px;
+}
+.box{
+	width: 1024px;
+	margin: auto;
+}
+nav{
+	width:1024px;
+	height:33px;
+	margin: auto;
+}
+nav ul li{
+	float: left;
+	width: 150px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+article{
+	width: 100%;
+}
+.su{
+	width: 100%;
+	height: 547px;
+}
+.juzhong{
+	width: 100%;
+	height: 517.11px;
+}
+.su img{
+	width: 100%;
+	height: 100%;
+}
+.si{
+	width: 100%;
+	height: 1000px;
+	margin: 50px 0 30px 0;
+}
+.zuo{
+	float: left;
+}
+.zuoshang{
+	width: 674.5px;
+	height: 441.22px;
+}
+.zuoshang img{
+	width: 666.5px;
+	height: 433.22px;
+}
+.zuoxia{
+	width: 674.5px;
+	height: 507.88px;
+}
+.zuoxia img{
+	width: 666.5px;
+	height: 499.88px;
+}
+.you{
+	float: right;
+}
+.youshang{
+	width: 674.5px;
+	height: 507.88px;
+}
+.youshang img{
+	width: 666.5px;
+	height: 499.88px;
+}
+.youxia{
+	width: 674.5px;
+	height: 417.22px;
+}
+.youxia img{
+	width: 666.5px;
+	height: 409.22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 224px;
+	background:#727171;
+}
+.f-left{
+	color: #fff;
+	float: left;
+	margin-top: 30px;
+}
+.f-cen{
+	color: #DDDDDD;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	
+}
+.f-right{
+	float: right;
+	margin-top: 70px;
+	color: #fff;
+}
+.f-right img{
+	width: 83px;
+	height: 83px;
+	margin-left:30px;
+	
+}
+.di{
+	width: 100%;
+	height: 16px;
+	background: #2B2B2B;
+	color: #A9A9A9;
+	font-size: 12px;
+	text-align: center;
+	line-height: 16px;
+}
